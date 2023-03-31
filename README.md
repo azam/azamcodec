@@ -176,9 +176,8 @@ Inspired by [Crockford's Base32](https://www.crockford.com/base32.html), split i
 
 | Language | Repository |
 |---|---|
-|Rust|[azam-codec-rs](https://github.com/azam/azam-codec-rs)|
-|Java|[azam-codec-java](https://github.com/azam/azam-codec-java)|
-|Javascript|[azam-codec-js](https://github.com/azam/azam-codec-js)|
+|Rust|[azamcodec-rs](https://github.com/azam/azamcodec-rs)|
+|Javascript|[azamcodec-js](https://github.com/azam/azamcodec-js)|
 
 ## Prior Art
 
