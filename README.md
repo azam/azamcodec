@@ -4,6 +4,14 @@
 
 A byte array encoding and decoding method, in big endian (network byte order), with markers to separate byte arrays into sections. The encoded symbols used are picked so that encoded string are lexicographically sortable based on the byte array values of each section, given comparing valid strings with the same number of section. Optimized to store multiple unsigned integers in a string, with human readable characters, and human input errors considered, by use of symbols inspired by Crockford's Base32 encoding. Having different set of characters in same case, representing higher and lower 4-bit of a byte makes the string resist case conversions.
 
+## Implementations
+
+| Language | Repository |
+|---|---|
+|Rust|[azamcodec-rs](https://github.com/azam/azamcodec-rs)|
+|Java|[azamcodec-java](https://github.com/azam/azamcodec-java)|
+|Javascript|[azamcodec-js](https://github.com/azam/azamcodec-js)|
+
 ## Specification
 
 Given an array of byte array of size `m`, with each byte array has variable lengths `n1,...,nm`.
@@ -171,13 +179,6 @@ Inspired by [Crockford's Base32](https://www.crockford.com/base32.html), split i
 |13|x<br/>X|x|
 |14|y<br/>Y|y|
 |15|z<br/>Z|z|
-
-## Implementations
-
-| Language | Repository |
-|---|---|
-|Rust|[azamcodec-rs](https://github.com/azam/azamcodec-rs)|
-|Javascript|[azamcodec-js](https://github.com/azam/azamcodec-js)|
 
 ## Prior Art
 
