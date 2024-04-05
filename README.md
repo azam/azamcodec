@@ -11,6 +11,7 @@ A byte array encoding and decoding method, in big endian (network byte order), w
 |Rust|[azamcodec-rs](https://github.com/azam/azamcodec-rs)|
 |Java|[azamcodec-java](https://github.com/azam/azamcodec-java)|
 |Javascript|[azamcodec-js](https://github.com/azam/azamcodec-js)|
+|Go|[azamcodec-go](https://github.com/azam/azamcodec-go)|
 
 ## Specification
 
